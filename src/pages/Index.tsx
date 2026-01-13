@@ -145,10 +145,12 @@ const Index = () => {
 
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <Card className="overflow-hidden hover:shadow-xl transition-shadow">
-              <div className="h-48 bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
-                <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center">
-                  <Icon name="User" className="text-primary" size={64} />
-                </div>
+              <div className="h-80 bg-gradient-to-br from-primary/5 to-accent/5 flex items-center justify-center overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/files/photo_2025-12-14_18-22-02.png" 
+                  alt="Панченко Анна Сергеевна" 
+                  className="w-full h-full object-cover object-top"
+                />
               </div>
               <CardHeader>
                 <CardTitle className="text-2xl">Панченко Анна Сергеевна</CardTitle>
