@@ -172,7 +172,7 @@ const Index = () => {
                     <Icon name="CheckCircle" className="text-primary mt-1 flex-shrink-0" size={18} />
                     <span>Дефектолог и логопед — коррекция речи</span>
                   </div>
-                  <Badge variant="outline" className="mt-4">Бытовые услуги (не врач)</Badge>
+                  <Badge variant="outline" className="mt-4">Бытовые услуги </Badge>
                 </div>
               </CardContent>
             </Card>
