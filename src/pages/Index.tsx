@@ -180,10 +180,12 @@ const Index = () => {
             </Card>
 
             <Card className="overflow-hidden hover:shadow-xl transition-shadow">
-              <div className="h-48 bg-gradient-to-br from-accent/20 to-primary/20 flex items-center justify-center">
-                <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center">
-                  <Icon name="User" className="text-primary" size={64} />
-                </div>
+              <div className="h-80 bg-gradient-to-br from-accent/5 to-primary/5 flex items-center justify-center overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/files/IMG-20251210-WA0008~2.png" 
+                  alt="Фролов Андрей Николаевич" 
+                  className="w-full h-full object-cover object-top"
+                />
               </div>
               <CardHeader>
                 <CardTitle className="text-2xl">Фролов Андрей Николаевич</CardTitle>
