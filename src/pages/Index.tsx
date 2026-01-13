@@ -35,9 +35,11 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-                <Icon name="Heart" className="text-white" size={24} />
-              </div>
+              <img 
+                src="https://cdn.poehali.dev/files/ЛОГО КОРОБ-1_page-0001.jpg" 
+                alt="Линия Жизни" 
+                className="w-12 h-12 object-contain"
+              />
               <div>
                 <h1 className="text-2xl font-bold text-primary">Линия Жизни</h1>
                 <p className="text-sm text-muted-foreground">Оздоровительный центр</p>
@@ -409,7 +411,7 @@ const Index = () => {
                     <Icon name="MapPin" className="text-primary mt-1" size={20} />
                     <div>
                       <p className="font-semibold">Адрес</p>
-                      <p className="text-muted-foreground">г. Славянск-на-Кубани</p>
+                      <p className="text-muted-foreground">г. Славянск-на-Кубани, ул. Батарейная, 259А</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -480,16 +482,18 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
-                <Icon name="Heart" className="text-white" size={20} />
-              </div>
+              <img 
+                src="https://cdn.poehali.dev/files/ЛОГО КОРОБ-1_page-0001.jpg" 
+                alt="Линия Жизни" 
+                className="w-10 h-10 object-contain"
+              />
               <div>
                 <p className="font-semibold">Линия Жизни</p>
                 <p className="text-sm text-white/70">Оздоровительный центр</p>
               </div>
             </div>
             <div className="text-center md:text-right">
-              <p className="text-white/70">г. Славянск-на-Кубани</p>
+              <p className="text-white/70">г. Славянск-на-Кубани, ул. Батарейная, 259А</p>
               <a href="tel:89298300555" className="text-primary hover:underline">
                 8 (929) 830-05-55
               </a>
