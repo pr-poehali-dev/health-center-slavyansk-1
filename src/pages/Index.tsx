@@ -149,7 +149,7 @@ const Index = () => {
                 <img 
                   src="https://cdn.poehali.dev/files/photo_2025-12-14_18-22-02.png" 
                   alt="Панченко Анна Сергеевна" 
-                  className="w-full h-full mx-[138px] my-[70px] px-0 py-0 rounded-xl object-contain"
+                  className="w-full h-full my-[197px] mx-[110px] rounded-full object-cover px-0 py-0"
                 />
               </div>
               <CardHeader>
@@ -184,7 +184,7 @@ const Index = () => {
                 <img 
                   src="https://cdn.poehali.dev/files/IMG-20251210-WA0008~2.png" 
                   alt="Фролов Андрей Николаевич" 
-                  className="w-full h-full object-cover object-top"
+                  className="w-full h-full object-scale-down rounded-full mx-[200px] my-[283px] py-0 px-0"
                 />
               </div>
               <CardHeader>
