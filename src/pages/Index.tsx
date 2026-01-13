@@ -203,9 +203,9 @@ const Index = () => {
                   </div>
                   <div className="flex items-start gap-2">
                     <Icon name="CheckCircle" className="text-primary mt-1 flex-shrink-0" size={18} />
-                    <span>Фитооздоровитель — траволечение</span>
+                    <span>Фитооздоровитель — траволечение </span>
                   </div>
-                  <Badge variant="outline" className="mt-4">Бытовые услуги (не врач)</Badge>
+                  <Badge variant="outline" className="mt-4">Бытовые услуги </Badge>
                 </div>
               </CardContent>
             </Card>
