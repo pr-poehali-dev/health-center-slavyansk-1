@@ -149,7 +149,7 @@ const Index = () => {
                 <img 
                   src="https://cdn.poehali.dev/files/photo_2025-12-14_18-22-02.png" 
                   alt="Панченко Анна Сергеевна" 
-                  className="w-full h-full object-cover object-top"
+                  className="w-full h-full mx-[138px] my-[70px] px-0 py-0 rounded-xl object-contain"
                 />
               </div>
               <CardHeader>
